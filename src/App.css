@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+form {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+
+input, button {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Additional styles to ensure text colors adapt in light/dark modes */
+.light-mode input, .light-mode button {
+  color: #000;
+  background-color: #fff;
+}
+
+.dark-mode input, .dark-mode button {
+  color: #eee;
+  background-color: #ffffff;
+}
